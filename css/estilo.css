@@ -1,0 +1,119 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+    padding: 0px;
+}
+
+ul > li {
+    width: 30%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+form{
+    margin: auto;
+    width: 40%;
+    border: 2px solid #f9f9f9;
+    border-radius: 15px;
+    padding: 16px;
+    background-color: #f9f9f9;
+}
+
+div > h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a,
+a:hover,
+a:focus{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.container-fluid{
+    margin-top: 40px;   
+}
+
+.fa-bars{
+    color: #fff;
+}
+
+.fa-bars:hover{
+    color: #fff;
+    size: 10px;
+}
+
+.form-group.inputWithIcon input[type=text]{
+    padding-left: 40px;
+
+}
+
+.form-group.inputWithIcon input[type=number]{
+    padding-left: 40px;
+
+}
+
+.form-group.inputWithIcon{    
+    position: relative;
+}
+
+.form-group.inputWithIcon i{
+    position: absolute;
+    left: 0;
+    top: 35px;
+    padding: 9px;
+    color: #aaa;
+}
+
+.form-group.inputWithIcon [type=text]:focus + i{
+    color: #007BFF;
+}  
+
+.form-group.inputWithIcon [type=number]:focus + i{
+    color: #007BFF;
+}   
+
+.list-group{
+    position: relative;
+    right: 0px;
+    left: 0px;
+}
+
+
+
+
+#novo{
+    color: #007BFF;
+}
+
+#listar{
+    color: #007BFF;
+}
+
+#irrf{
+    width: 70%;
+}
+
+#aliquota{
+    width: 20%;
+}
+
+#irrfList{
+    width: 65%;
+    display: inline-block;
+}
+
+#aliquotaSelect{
+    width: 25%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    form{
+        width: 300px
+    };
+}
